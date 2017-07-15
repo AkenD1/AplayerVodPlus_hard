@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">AplayerSampleDemo</string>
+    <string name="full_screen">Full</string>
+    <string name="duration">00:00:00</string>
+    <string name="sprit">/</string>
+    <string name="kbs">KB/S</string>
+    <string name="load_prompt">Opening&#8230;</string>
+    <string name="back_txt1">Press back again</string>
+    <string name="switch_tv">TV series</string>
+
+</resources>

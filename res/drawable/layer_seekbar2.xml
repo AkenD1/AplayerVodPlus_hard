@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/seekbar_center_bg">
+    </item>
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:drawable="@drawable/seekbar_center_sec">
+    </item>
+    <item android:id="@android:id/progress">
+        <clip
+            android:clipOrientation="horizontal"
+            android:drawable="@drawable/seekbar_center_cur"
+            android:gravity="left" >
+        </clip>
+    </item>
+
+</layer-list>

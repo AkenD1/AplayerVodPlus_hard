@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <item android:drawable="@drawable/transport" android:state_window_focused="false"/>
+    <item android:drawable="@drawable/p_dot" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/p_dot" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/p_dot" android:state_selected="true"/>
+    <item android:drawable="@drawable/p_dot" android:state_focused="true"/>
+    -->
+
+
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/seekbar_center_sec" android:state_focused="true" android:state_pressed="true"/>
+    <!-- 普通无焦点状态 -拖动按钮 -->
+    <item android:drawable="@drawable/seekbar_center_sec" android:state_focused="false" android:state_pressed="false"/>
+    <!-- 有焦点状态 -->
+    <item android:drawable="@drawable/seekbar_center_sec" android:state_focused="true" android:state_pressed="false"/>
+    <!-- 有焦点 -->
+    <item android:drawable="@drawable/seekbar_center_sec" android:state_focused="true"/>
+
+</selector>
